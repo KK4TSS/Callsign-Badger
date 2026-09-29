@@ -1,0 +1,67 @@
+{
+  "hf_propagation": false,
+  "callsign": "N0CALL",
+  "name": "Your Name",
+  "location": "Your Town",
+  "grid": "",
+  "club": "Club",
+  "pronouns": "",
+  "license_class": "",
+  "event_role": "",
+  "find_me": "",
+  "qr": {
+    "type": "qrz",
+    "url": "",
+    "contact": {
+      "phone": "",
+      "email": ""
+    }
+  },
+  "display": {
+    "design": "A",
+    "theme": "auto",
+    "show_battery": true,
+    "details_seconds": 12,
+    "remember_last": true
+  },
+  "morse": {
+    "wpm": 10,
+    "brightness": 90,
+    "message": ""
+  },
+  "privacy": {
+    "hide_name": true,
+    "hide_location": true,
+    "hide_qr": true,
+    "start_enabled": false
+  },
+  "default_profile": "hamfest",
+  "profiles": [
+    {
+      "id": "hamfest",
+      "label": "Hamfest",
+      "overrides": {}
+    },
+    {
+      "id": "pota",
+      "label": "POTA",
+      "overrides": {
+        "event_role": "POTA Operator",
+        "display": {
+          "design": "B"
+        }
+      }
+    },
+    {
+      "id": "club",
+      "label": "Club Meeting",
+      "overrides": {
+        "display": {
+          "design": "C"
+        }
+      }
+    }
+  ],
+  "logo": "",
+  "event_message": ""
+}

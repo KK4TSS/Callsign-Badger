@@ -1,0 +1,11 @@
+{
+  "callsign": "N0CALL",
+  "name": "Your Name",
+  "qr": {
+    "type": "contact",
+    "contact": {
+      "phone": "",
+      "email": ""
+    }
+  }
+}

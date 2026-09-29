@@ -1,0 +1,9 @@
+{
+  "callsign": "N0CALL",
+  "name": "Your Name",
+  "logo": "assets/example-logo.png",
+  "event_message": "Meet us at booth 12",
+  "display": {
+    "remember_last": true
+  }
+}
